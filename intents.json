@@ -1,0 +1,119 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "hello",
+                "hi",
+                "hey",
+                "wake up",
+                "itian"
+            ],
+            "responses": [
+                "Hello sir",
+                "How are you sir",
+                "Hello",
+                "Here's Your assistant",
+                "Hi Sir"
+            ]
+        },
+        {
+            "tag": "bye",
+            "patterns": [
+                "bye",
+                "goodbye",
+                "see you later",
+                "sleep",
+                "exit"
+            ],
+            "responses": [
+                "Bye sir",
+                "Good bye sir",
+                "See you later sir",
+                "Bye",
+                "See you then"
+            ]
+        },
+        {
+            "tag": "health",
+            "patterns": [
+                "how are you",
+                "are you fine?",
+                "are you good"
+            ],
+            "responses": [
+                "I am fine",
+                "Perfect",
+                "Thanks for asking, I am good"
+            ]
+        },
+        {
+            "tag": "identity",
+            "patterns": [
+                "what is your name",
+                "who are you",
+                "your name"
+            ],
+            "responses": [
+                "Sir my name is itian",
+                "I am an AI voice assistant",
+                "Itian sir"
+            ]
+        },
+        {
+            "tag": "time",
+            "patterns": [
+                "what is time",
+                "time",
+                "current time"
+            ],
+            "responses": [
+                "time"
+            ]
+        },
+        {
+            "tag": "date",
+            "patterns": [
+                "what is date",
+                "today date",
+                "date"
+            ],
+            "responses": [
+                "date"
+            ]
+        },
+        {
+            "tag": "day",
+            "patterns": [
+                "what is day today",
+                "day",
+                "tell the day"
+            ],
+            "responses": [
+                "day"
+            ]
+        },
+        {
+            "tag": "wikipedia",
+            "patterns": [
+                "what is ",
+                "about",
+                "who is",
+                "wikipedia"
+            ],
+            "responses": [
+                "wikipedia"
+            ]
+        },
+        {
+            "tag": "google",
+            "patterns": [
+                "google",
+                "search"
+            ],
+            "responses": [
+                "google"
+            ]
+        }
+    ]
+}
